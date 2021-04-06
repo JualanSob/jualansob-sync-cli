@@ -1,0 +1,23 @@
+{
+  "name": "jualansob-sync-cli",
+  "version": "0.0.1",
+  "description": "Get price and stock information from supplier for dropshipper",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JualanSob Dev Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/progress": "^2.0.3",
+    "@types/puppeteer": "^5.4.3",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "commander": "^7.2.0",
+    "exceljs": "^4.2.1",
+    "progress": "^2.0.3",
+    "puppeteer": "5.5.0"
+  }
+}

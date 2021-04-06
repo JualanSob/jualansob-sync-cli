@@ -1,0 +1,8 @@
+# Dependencies
+node_modules
+
+# Build Result
+dist/
+
+# Visual Studio Code Files
+.vscode
