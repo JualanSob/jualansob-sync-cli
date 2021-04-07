@@ -1,8 +1,14 @@
 # Dependencies
 node_modules
 
+# Chromium
+chromium/
+
 # Build Result
 dist/
+
+# npm
+package-lock.json
 
 # Visual Studio Code Files
 .vscode
