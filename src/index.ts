@@ -19,10 +19,12 @@ const chromiumDownload = async () => {
     https://storage.googleapis.com/chromium-browser-snapshots/index.html
   */
   const platform = process.platform;
+  const arch = process.arch;
   let version: string;
   if (platform === "darwin") version = "869426";
   else if (platform === "linux") version = "869434";
-  else if (platform === "win32") version = "869404";
+  else if (platform === "win32" && arch === "ia32") version = "869404";
+  else if (platform === "win32" && arch === "x64") version = "869408";
   else throw new Error("OS Tidak Didukung");
 
   // Download Chromium
