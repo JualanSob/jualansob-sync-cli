@@ -132,6 +132,15 @@ For Windows, you can download nodejs and npm from
 
 After installing nodejs and npm, you can navigate to source code directory via command prompt or terminal, and then type these commands to install dependencies:
 
+Bash (Linux and macOS):
+
+    export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+    npm install
+    npm install -g pkg
+
+Windows:
+
+    set PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
     npm install
     npm install -g pkg
 

@@ -132,6 +132,15 @@ Untuk Windows, Anda dapat mengunduh nodejs dan npm dari
 
 Setelah memasang nodejs dan npm, Anda dapat menavigasi ke direktori tempat Anda menyimpan source code melalui command prompt (cmd) atau terminal, lalu ketik perintah-perintah ini untuk memasang dependencies:
 
+Linux:
+
+    export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+    npm install
+    npm install -g pkg
+
+Windows:
+
+    set PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
     npm install
     npm install -g pkg
 
